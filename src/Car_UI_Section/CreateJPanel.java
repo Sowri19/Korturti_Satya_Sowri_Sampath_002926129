@@ -483,7 +483,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         }
      car.setEngineNumber(EngineNumber);
         if(txtEng_Num.getText().trim().length()!=12){
-            JOptionPane.showMessageDialog(this, "Invalid Year");
+            JOptionPane.showMessageDialog(this, "Invalid Eng No");
         }
      car.setSeatsNumber(SeatsNumber);
      car.setLicensePlates(LicensePlates);
